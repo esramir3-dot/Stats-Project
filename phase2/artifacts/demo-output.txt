@@ -1,0 +1,61 @@
+DormEats recommendation for: Exam week vegan student
+Dietary need: vegan
+Time available: 10 minutes
+Budget: $5.00
+
+Top meal suggestions:
+1. No-Cook Hummus Wrap (score=0.75, cost=$3.75, time=8 min)
+   Missing items: carrot
+   Instructions: Spread hummus over the tortilla. Add spinach, cucumber, and shredded carrot. Roll tightly and slice in half.
+2. Chickpea Salad Bowl (score=0.33, cost=$3.90, time=10 min)
+   Missing items: chickpeas, tomato, olive oil, lemon juice
+   Instructions: Drain and rinse the chickpeas. Dice the vegetables and add them to a bowl. Dress with olive oil and lemon juice, then toss.
+
+Restaurant backup:
+- Green Leaf Cafe (0.6 miles, price level 2): Protein salad, Veggie wrap
+
+================================================================================
+
+DormEats recommendation for: Halal student with a microwave only
+Dietary need: halal
+Time available: 15 minutes
+Budget: $6.00
+
+Top meal suggestions:
+1. Microwave Veggie Rice Bowl (score=0.75, cost=$4.50, time=12 min)
+   Missing items: soy sauce
+   Instructions: Microwave the rice according to package directions. Heat the frozen vegetables and black beans in a microwave-safe bowl. Scramble or poach the egg in the microwave. Combine everything and season with soy sauce.
+2. Yogurt Berry Parfait (score=0.3, cost=$3.40, time=5 min)
+   Missing items: greek yogurt, berries, gluten-free granola, honey
+   Instructions: Layer yogurt, berries, and granola in a bowl or cup. Drizzle honey on top.
+3. Peanut Butter Banana Oats (score=0.29, cost=$2.80, time=6 min)
+   Missing items: oats, milk, banana, peanut butter, honey
+   Instructions: Mix oats and milk in a bowl. Microwave until soft. Top with banana slices, peanut butter, and honey.
+
+Restaurant backup:
+- Budget Burrito (0.9 miles, price level 1): Bean burrito, Rice bowl
+- Campus Halal Grill (0.4 miles, price level 2): Chicken bowl, Falafel wrap
+
+================================================================================
+
+DormEats recommendation for: Gluten-free student with almost nothing in the fridge
+Dietary need: gluten-free
+Time available: 15 minutes
+Budget: $6.00
+
+Top meal suggestions:
+1. Gluten-Free Tuna Potato Bowl (score=0.34, cost=$4.90, time=14 min)
+   Missing items: tuna, greek yogurt, green onion, salt
+   Instructions: Microwave the potato until tender. Mix tuna with greek yogurt, chopped green onion, and salt. Split the potato and spoon the tuna mixture on top.
+2. Yogurt Berry Parfait (score=0.3, cost=$3.40, time=5 min)
+   Missing items: greek yogurt, berries, gluten-free granola, honey
+   Instructions: Layer yogurt, berries, and granola in a bowl or cup. Drizzle honey on top.
+3. Chickpea Salad Bowl (score=0.25, cost=$3.90, time=10 min)
+   Missing items: chickpeas, cucumber, tomato, olive oil, lemon juice
+   Instructions: Drain and rinse the chickpeas. Dice the vegetables and add them to a bowl. Dress with olive oil and lemon juice, then toss.
+
+Restaurant backup:
+- Green Leaf Cafe (0.6 miles, price level 2): Protein salad, Veggie wrap
+
+================================================================================
+

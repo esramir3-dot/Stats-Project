@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Exam week vegan student",
+    "dietary_need": "vegan",
+    "available_ingredients": ["tortilla", "hummus", "spinach", "cucumber"],
+    "available_equipment": ["none", "microwave"],
+    "time_minutes": 10,
+    "budget": 5.0
+  },
+  {
+    "name": "Halal student with a microwave only",
+    "dietary_need": "halal",
+    "available_ingredients": ["rice", "black beans", "frozen vegetables", "egg"],
+    "available_equipment": ["microwave"],
+    "time_minutes": 15,
+    "budget": 6.0
+  },
+  {
+    "name": "Gluten-free student with almost nothing in the fridge",
+    "dietary_need": "gluten-free",
+    "available_ingredients": ["potato"],
+    "available_equipment": ["microwave"],
+    "time_minutes": 15,
+    "budget": 6.0
+  }
+]

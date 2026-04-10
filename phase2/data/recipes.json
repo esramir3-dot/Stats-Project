@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Microwave Veggie Rice Bowl",
+    "dietary_tags": ["vegetarian", "halal", "gluten-free"],
+    "ingredients": ["rice", "black beans", "frozen vegetables", "soy sauce", "egg"],
+    "equipment": ["microwave"],
+    "time_minutes": 12,
+    "estimated_cost": 4.5,
+    "instructions": [
+      "Microwave the rice according to package directions.",
+      "Heat the frozen vegetables and black beans in a microwave-safe bowl.",
+      "Scramble or poach the egg in the microwave.",
+      "Combine everything and season with soy sauce."
+    ]
+  },
+  {
+    "name": "No-Cook Hummus Wrap",
+    "dietary_tags": ["vegan", "halal"],
+    "ingredients": ["tortilla", "hummus", "spinach", "cucumber", "carrot"],
+    "equipment": ["none"],
+    "time_minutes": 8,
+    "estimated_cost": 3.75,
+    "instructions": [
+      "Spread hummus over the tortilla.",
+      "Add spinach, cucumber, and shredded carrot.",
+      "Roll tightly and slice in half."
+    ]
+  },
+  {
+    "name": "Dorm Chicken Quesadilla",
+    "dietary_tags": ["halal"],
+    "ingredients": ["tortilla", "cooked chicken", "cheese", "salsa"],
+    "equipment": ["pan", "microwave"],
+    "time_minutes": 15,
+    "estimated_cost": 5.75,
+    "instructions": [
+      "Place chicken, cheese, and salsa on half of the tortilla.",
+      "Fold the tortilla and heat in a pan or microwave until the cheese melts.",
+      "Slice and serve."
+    ]
+  },
+  {
+    "name": "Peanut Butter Banana Oats",
+    "dietary_tags": ["vegetarian", "halal"],
+    "ingredients": ["oats", "milk", "banana", "peanut butter", "honey"],
+    "equipment": ["microwave"],
+    "time_minutes": 6,
+    "estimated_cost": 2.8,
+    "instructions": [
+      "Mix oats and milk in a bowl.",
+      "Microwave until soft.",
+      "Top with banana slices, peanut butter, and honey."
+    ]
+  },
+  {
+    "name": "Gluten-Free Tuna Potato Bowl",
+    "dietary_tags": ["gluten-free", "halal"],
+    "ingredients": ["potato", "tuna", "greek yogurt", "green onion", "salt"],
+    "equipment": ["microwave"],
+    "time_minutes": 14,
+    "estimated_cost": 4.9,
+    "instructions": [
+      "Microwave the potato until tender.",
+      "Mix tuna with greek yogurt, chopped green onion, and salt.",
+      "Split the potato and spoon the tuna mixture on top."
+    ]
+  },
+  {
+    "name": "Quick Tofu Noodles",
+    "dietary_tags": ["vegan", "halal"],
+    "ingredients": ["ramen noodles", "tofu", "frozen vegetables", "soy sauce", "peanut butter"],
+    "equipment": ["hot plate", "microwave"],
+    "time_minutes": 18,
+    "estimated_cost": 4.2,
+    "instructions": [
+      "Cook the noodles according to package directions.",
+      "Warm tofu and vegetables.",
+      "Stir soy sauce and peanut butter into the noodles, then top with tofu and vegetables."
+    ]
+  },
+  {
+    "name": "Yogurt Berry Parfait",
+    "dietary_tags": ["vegetarian", "gluten-free", "halal"],
+    "ingredients": ["greek yogurt", "berries", "gluten-free granola", "honey"],
+    "equipment": ["none"],
+    "time_minutes": 5,
+    "estimated_cost": 3.4,
+    "instructions": [
+      "Layer yogurt, berries, and granola in a bowl or cup.",
+      "Drizzle honey on top."
+    ]
+  },
+  {
+    "name": "Chickpea Salad Bowl",
+    "dietary_tags": ["vegan", "gluten-free", "halal"],
+    "ingredients": ["chickpeas", "cucumber", "tomato", "olive oil", "lemon juice"],
+    "equipment": ["none"],
+    "time_minutes": 10,
+    "estimated_cost": 3.9,
+    "instructions": [
+      "Drain and rinse the chickpeas.",
+      "Dice the vegetables and add them to a bowl.",
+      "Dress with olive oil and lemon juice, then toss."
+    ]
+  }
+]

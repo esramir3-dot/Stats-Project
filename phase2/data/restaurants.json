@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Campus Halal Grill",
+    "distance_miles": 0.4,
+    "price_level": 2,
+    "dietary_tags": ["halal"],
+    "top_items": ["Chicken bowl", "Falafel wrap"]
+  },
+  {
+    "name": "Green Leaf Cafe",
+    "distance_miles": 0.6,
+    "price_level": 2,
+    "dietary_tags": ["vegan", "vegetarian", "gluten-free"],
+    "top_items": ["Protein salad", "Veggie wrap"]
+  },
+  {
+    "name": "Budget Burrito",
+    "distance_miles": 0.9,
+    "price_level": 1,
+    "dietary_tags": ["vegetarian", "halal"],
+    "top_items": ["Bean burrito", "Rice bowl"]
+  }
+]
