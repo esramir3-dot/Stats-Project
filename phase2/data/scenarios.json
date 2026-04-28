@@ -1,5 +1,13 @@
 [
   {
+    "name": "Custom dorm profile",
+    "dietary_need": "no restriction",
+    "available_ingredients": ["rice", "black beans", "frozen vegetables", "egg"],
+    "available_equipment": ["microwave", "mini fridge"],
+    "time_minutes": 20,
+    "budget": 8.0
+  },
+  {
     "name": "Exam week vegan student",
     "dietary_need": "vegan",
     "available_ingredients": ["tortilla", "hummus", "spinach", "cucumber"],
@@ -22,5 +30,53 @@
     "available_equipment": ["microwave"],
     "time_minutes": 15,
     "budget": 6.0
+  },
+  {
+    "name": "High-protein athlete on a budget",
+    "dietary_need": "high-protein",
+    "available_ingredients": ["rice", "black beans", "egg", "tuna", "protein powder"],
+    "available_equipment": ["microwave", "mini fridge", "blender"],
+    "time_minutes": 25,
+    "budget": 8.0
+  },
+  {
+    "name": "No-cook late night snack",
+    "dietary_need": "no restriction",
+    "available_ingredients": ["tuna", "crackers", "mayo", "grapes", "hummus"],
+    "available_equipment": ["none", "mini fridge"],
+    "time_minutes": 5,
+    "budget": 5.0
+  },
+  {
+    "name": "Vegetarian meal prep for the week",
+    "dietary_need": "vegetarian",
+    "available_ingredients": ["rice", "black beans", "corn", "salsa", "cheese", "avocado"],
+    "available_equipment": ["rice cooker", "microwave", "mini fridge"],
+    "time_minutes": 90,
+    "budget": 18.0
+  },
+  {
+    "name": "Broke student under $5",
+    "dietary_need": "low-cost/no preference",
+    "available_ingredients": ["ramen noodles", "egg", "spinach", "soy sauce"],
+    "available_equipment": ["kettle", "microwave"],
+    "time_minutes": 15,
+    "budget": 4.5
+  },
+  {
+    "name": "30-minute comfort meal",
+    "dietary_need": "vegetarian",
+    "available_ingredients": ["tomato soup", "bread", "cheese", "butter"],
+    "available_equipment": ["pan", "microwave", "mini fridge"],
+    "time_minutes": 30,
+    "budget": 8.0
+  },
+  {
+    "name": "Big grocery trip / stocked dorm",
+    "dietary_need": "no restriction",
+    "available_ingredients": ["rice", "tofu", "edamame", "broccoli", "soy sauce", "sesame oil", "salmon fillet", "sweet potato"],
+    "available_equipment": ["microwave", "mini fridge", "hot plate", "pan", "rice cooker", "air fryer", "blender", "kettle", "toaster"],
+    "time_minutes": 120,
+    "budget": 40.0
   }
 ]

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="DormEats logo">
+  <rect width="64" height="64" rx="16" fill="#fff7ea"/>
+  <path d="M15 32c3 14 12 20 25 15 8-3 13-9 12-18-10 5-25 6-37 3Z" fill="#19a7a8"/>
+  <path d="M13 30c5 14 16 20 29 16-7-7-15-12-29-16Z" fill="#f36b32"/>
+  <path d="M18 32c9 3 20 3 31-2" fill="none" stroke="#0f7f7d" stroke-width="4" stroke-linecap="round"/>
+  <path d="M26 20c-3-5 1-11 7-11s10 6 7 11c-1 2-3 4-4 6h-6c-1-2-3-4-4-6Z" fill="#ffe08a" stroke="#f39a22" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M29 27h8M30 32h6" stroke="#0f7f7d" stroke-width="3" stroke-linecap="round"/>
+  <path d="M22 15c-2 1-3 3-3 6M44 15c2 1 3 3 3 6" stroke="#f36b32" stroke-width="3" stroke-linecap="round"/>
+</svg>

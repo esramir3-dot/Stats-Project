@@ -19,5 +19,40 @@
     "price_level": 1,
     "dietary_tags": ["vegetarian", "halal"],
     "top_items": ["Bean burrito", "Rice bowl"]
+  },
+  {
+    "name": "Protein Plate Express",
+    "distance_miles": 0.7,
+    "price_level": 2,
+    "dietary_tags": ["high-protein", "gluten-free", "dairy-free"],
+    "top_items": ["Grilled chicken plate", "Salmon protein bowl"]
+  },
+  {
+    "name": "Late Night Smoothie Bar",
+    "distance_miles": 0.3,
+    "price_level": 2,
+    "dietary_tags": ["vegetarian", "dairy-free", "gluten-free", "nut-free"],
+    "top_items": ["Berry protein smoothie", "Oat milk fruit bowl"]
+  },
+  {
+    "name": "Campus Soup Kitchen",
+    "distance_miles": 0.5,
+    "price_level": 1,
+    "dietary_tags": ["vegetarian", "vegan", "low-cost", "nut-free"],
+    "top_items": ["Tomato soup", "Lentil stew"]
+  },
+  {
+    "name": "Allergy-Safe Deli",
+    "distance_miles": 1.1,
+    "price_level": 2,
+    "dietary_tags": ["dairy-free", "nut-free", "gluten-free"],
+    "top_items": ["Turkey lettuce wrap", "Rice noodle salad"]
+  },
+  {
+    "name": "Comfort Bowl Co.",
+    "distance_miles": 0.8,
+    "price_level": 3,
+    "dietary_tags": ["halal", "vegetarian", "high-protein"],
+    "top_items": ["Chicken comfort bowl", "Paneer rice bowl"]
   }
 ]

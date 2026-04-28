@@ -13,7 +13,19 @@ def load_json(filename: str) -> list[dict[str, Any]]:
         return json.load(handle)
 
 
+def is_open_dietary_need(dietary_need: str) -> bool:
+    return dietary_need.lower() in {
+        "no restriction",
+        "no restrictions",
+        "none",
+        "no preference",
+        "low-cost/no preference",
+    }
+
+
 def dietary_match(recipe: dict[str, Any], dietary_need: str) -> bool:
+    if is_open_dietary_need(dietary_need):
+        return True
     return dietary_need.lower() in {tag.lower() for tag in recipe["dietary_tags"]}
 
 
@@ -66,7 +78,8 @@ def recommend_restaurants(profile: dict[str, Any], top_k: int = 2) -> list[dict[
     matches = [
         restaurant
         for restaurant in restaurants
-        if profile["dietary_need"].lower()
+        if is_open_dietary_need(profile["dietary_need"])
+        or profile["dietary_need"].lower()
         in {tag.lower() for tag in restaurant["dietary_tags"]}
     ]
     return sorted(matches, key=lambda item: (item["price_level"], item["distance_miles"]))[:top_k]

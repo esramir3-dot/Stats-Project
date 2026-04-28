@@ -102,5 +102,572 @@
       "Dice the vegetables and add them to a bowl.",
       "Dress with olive oil and lemon juice, then toss."
     ]
+  },
+  {
+    "name": "Kettle Couscous Chickpea Cup",
+    "dietary_tags": ["vegan", "vegetarian", "halal", "dairy-free", "nut-free", "low-cost"],
+    "ingredients": ["couscous", "chickpeas", "frozen peas", "olive oil", "lemon pepper"],
+    "equipment": ["kettle"],
+    "time_minutes": 12,
+    "estimated_cost": 3.25,
+    "instructions": [
+      "Pour boiling water from the kettle over couscous in a heat-safe bowl.",
+      "Cover until fluffy.",
+      "Stir in chickpeas, peas, olive oil, and lemon pepper."
+    ]
+  },
+  {
+    "name": "Mini Fridge Protein Snack Box",
+    "dietary_tags": ["vegetarian", "halal", "gluten-free", "high-protein", "nut-free"],
+    "ingredients": ["hard boiled eggs", "cheese cubes", "grapes", "baby carrots", "hummus"],
+    "equipment": ["mini fridge"],
+    "time_minutes": 7,
+    "estimated_cost": 6.75,
+    "instructions": [
+      "Slice the hard boiled eggs.",
+      "Pack eggs, cheese, grapes, carrots, and hummus into a plate or container.",
+      "Season the eggs with salt or pepper if available."
+    ]
+  },
+  {
+    "name": "Toaster Avocado Egg Toast",
+    "dietary_tags": ["vegetarian", "halal", "high-protein", "nut-free"],
+    "ingredients": ["bread", "avocado", "egg", "hot sauce", "salt"],
+    "equipment": ["toaster", "microwave"],
+    "time_minutes": 10,
+    "estimated_cost": 4.6,
+    "instructions": [
+      "Toast the bread.",
+      "Microwave or soft scramble the egg.",
+      "Mash avocado on toast, add the egg, and finish with hot sauce and salt."
+    ]
+  },
+  {
+    "name": "Blender Berry Protein Smoothie",
+    "dietary_tags": ["vegetarian", "gluten-free", "high-protein"],
+    "ingredients": ["protein powder", "milk", "berries", "banana", "ice"],
+    "equipment": ["blender", "mini fridge"],
+    "time_minutes": 6,
+    "estimated_cost": 5.9,
+    "instructions": [
+      "Add milk, protein powder, berries, banana, and ice to a blender.",
+      "Blend until smooth.",
+      "Pour into a cup and drink cold."
+    ]
+  },
+  {
+    "name": "Dairy-Free Rice Cooker Lentil Pilaf",
+    "dietary_tags": ["vegan", "vegetarian", "halal", "gluten-free", "dairy-free", "nut-free", "high-protein"],
+    "ingredients": ["rice", "lentils", "vegetable broth", "frozen vegetables", "cumin"],
+    "equipment": ["rice cooker"],
+    "time_minutes": 45,
+    "estimated_cost": 7.5,
+    "instructions": [
+      "Rinse rice and lentils.",
+      "Add rice, lentils, broth, vegetables, and cumin to the rice cooker.",
+      "Cook until tender, then fluff and serve."
+    ]
+  },
+  {
+    "name": "Air Fryer Salmon Sweet Potato Plate",
+    "dietary_tags": ["gluten-free", "dairy-free", "nut-free", "high-protein", "halal"],
+    "ingredients": ["salmon fillet", "sweet potato", "broccoli", "olive oil", "lemon"],
+    "equipment": ["air fryer", "mini fridge"],
+    "time_minutes": 28,
+    "estimated_cost": 12.5,
+    "instructions": [
+      "Cube the sweet potato and toss with olive oil.",
+      "Air fry sweet potato until nearly tender.",
+      "Add salmon and broccoli, then cook until the salmon flakes.",
+      "Finish with lemon."
+    ]
+  },
+  {
+    "name": "Low-Cost Bean and Cheese Tostadas",
+    "dietary_tags": ["vegetarian", "halal", "low-cost", "nut-free"],
+    "ingredients": ["tostada shells", "refried beans", "cheese", "salsa", "lettuce"],
+    "equipment": ["microwave"],
+    "time_minutes": 9,
+    "estimated_cost": 2.95,
+    "instructions": [
+      "Warm refried beans in the microwave.",
+      "Spread beans over tostada shells.",
+      "Top with cheese, salsa, and lettuce."
+    ]
+  },
+  {
+    "name": "No-Cook Tuna Cracker Stack",
+    "dietary_tags": ["halal", "high-protein", "nut-free", "low-cost"],
+    "ingredients": ["tuna", "crackers", "pickle relish", "mayo", "pepper"],
+    "equipment": ["none"],
+    "time_minutes": 5,
+    "estimated_cost": 3.2,
+    "instructions": [
+      "Mix tuna with relish, mayo, and pepper.",
+      "Spoon the tuna mixture onto crackers.",
+      "Serve immediately for a crunchy snack."
+    ]
+  },
+  {
+    "name": "Kettle Ramen Egg Bowl",
+    "dietary_tags": ["vegetarian", "halal", "low-cost"],
+    "ingredients": ["ramen noodles", "egg", "spinach", "soy sauce", "green onion"],
+    "equipment": ["kettle", "microwave"],
+    "time_minutes": 11,
+    "estimated_cost": 2.4,
+    "instructions": [
+      "Use kettle water to soften the ramen noodles.",
+      "Microwave an egg until set.",
+      "Add spinach, soy sauce, green onion, and the egg to the noodles."
+    ]
+  },
+  {
+    "name": "Vegetarian Sheetless Meal Prep Burrito Bowls",
+    "dietary_tags": ["vegetarian", "halal", "gluten-free", "nut-free"],
+    "ingredients": ["rice", "black beans", "corn", "salsa", "cheese", "avocado"],
+    "equipment": ["rice cooker", "microwave", "mini fridge"],
+    "time_minutes": 60,
+    "estimated_cost": 14.0,
+    "instructions": [
+      "Cook rice in the rice cooker.",
+      "Warm beans and corn in the microwave.",
+      "Portion rice, beans, corn, salsa, cheese, and avocado into containers.",
+      "Refrigerate extra portions for later."
+    ]
+  },
+  {
+    "name": "30-Minute Tomato Soup Grilled Cheese",
+    "dietary_tags": ["vegetarian", "halal", "nut-free"],
+    "ingredients": ["tomato soup", "bread", "cheese", "butter", "black pepper"],
+    "equipment": ["pan", "microwave"],
+    "time_minutes": 30,
+    "estimated_cost": 6.25,
+    "instructions": [
+      "Warm tomato soup in the microwave.",
+      "Butter bread and add cheese.",
+      "Toast the sandwich in a pan until golden.",
+      "Serve with soup and black pepper."
+    ]
+  },
+  {
+    "name": "Stocked Dorm Stir-Fry Night",
+    "dietary_tags": ["vegetarian", "halal", "dairy-free", "high-protein"],
+    "ingredients": ["rice", "tofu", "edamame", "broccoli", "soy sauce", "sesame oil"],
+    "equipment": ["hot plate", "pan", "rice cooker", "mini fridge"],
+    "time_minutes": 55,
+    "estimated_cost": 16.5,
+    "instructions": [
+      "Cook rice in the rice cooker.",
+      "Sear tofu in a pan on the hot plate.",
+      "Add broccoli and edamame until hot.",
+      "Toss with soy sauce and sesame oil, then serve over rice."
+    ]
+  },
+  {
+    "name": "Dairy-Free Turkey Rice Cooker Chili",
+    "dietary_tags": ["dairy-free", "gluten-free", "high-protein", "nut-free", "halal"],
+    "ingredients": ["ground turkey", "black beans", "tomatoes", "corn", "chili powder", "rice"],
+    "equipment": ["rice cooker", "mini fridge"],
+    "time_minutes": 70,
+    "estimated_cost": 18.0,
+    "instructions": [
+      "Add turkey, beans, tomatoes, corn, chili powder, and rice to the rice cooker.",
+      "Cook until the rice is tender and turkey is fully cooked.",
+      "Stir well and portion leftovers into containers."
+    ]
+  },
+  {
+    "name": "Nut-Free Overnight Oats",
+    "dietary_tags": ["vegetarian", "halal", "nut-free", "low-cost"],
+    "ingredients": ["oats", "milk", "berries", "honey", "chia seeds"],
+    "equipment": ["mini fridge"],
+    "time_minutes": 5,
+    "estimated_cost": 2.6,
+    "instructions": [
+      "Stir oats, milk, berries, honey, and chia seeds in a container.",
+      "Refrigerate until thickened.",
+      "Eat cold or warm briefly in the microwave."
+    ]
+  },
+  {
+    "name": "Dairy-Free Peanut Noodle Salad",
+    "dietary_tags": ["vegan", "vegetarian", "dairy-free", "halal"],
+    "ingredients": ["ramen noodles", "peanut butter", "soy sauce", "cucumber", "carrot"],
+    "equipment": ["kettle"],
+    "time_minutes": 15,
+    "estimated_cost": 4.0,
+    "instructions": [
+      "Soften noodles with kettle water and drain.",
+      "Stir peanut butter and soy sauce into a quick sauce.",
+      "Toss noodles with cucumber, carrot, and sauce."
+    ]
+  },
+  {
+    "name": "Apple Cinnamon Yogurt Bowl",
+    "dietary_tags": ["vegetarian", "halal", "nut-free", "low-cost"],
+    "ingredients": ["greek yogurt", "apple", "cinnamon", "honey", "granola"],
+    "equipment": ["none"],
+    "time_minutes": 5,
+    "estimated_cost": 3.1,
+    "instructions": [
+      "Dice the apple into small pieces.",
+      "Spoon yogurt into a bowl.",
+      "Top with apple, cinnamon, honey, and granola."
+    ]
+  },
+  {
+    "name": "Microwave Egg Fried Rice",
+    "dietary_tags": ["vegetarian", "halal", "gluten-free", "high-protein", "low-cost"],
+    "ingredients": ["rice", "egg", "frozen vegetables", "soy sauce", "green onion"],
+    "equipment": ["microwave"],
+    "time_minutes": 10,
+    "estimated_cost": 3.8,
+    "instructions": [
+      "Warm rice and frozen vegetables in a microwave-safe bowl.",
+      "Stir in the egg and microwave in short bursts until set.",
+      "Season with soy sauce and green onion."
+    ]
+  },
+  {
+    "name": "Air Fryer Chickpea Tacos",
+    "dietary_tags": ["vegan", "vegetarian", "halal", "dairy-free", "nut-free"],
+    "ingredients": ["tortilla", "chickpeas", "taco seasoning", "lettuce", "salsa"],
+    "equipment": ["air fryer"],
+    "time_minutes": 18,
+    "estimated_cost": 5.4,
+    "instructions": [
+      "Toss chickpeas with taco seasoning.",
+      "Air fry until crisp.",
+      "Fill tortillas with chickpeas, lettuce, and salsa."
+    ]
+  },
+  {
+    "name": "Rice Cooker Coconut Curry",
+    "dietary_tags": ["vegan", "vegetarian", "halal", "gluten-free", "dairy-free"],
+    "ingredients": ["rice", "coconut milk", "chickpeas", "curry powder", "frozen vegetables"],
+    "equipment": ["rice cooker"],
+    "time_minutes": 50,
+    "estimated_cost": 9.5,
+    "instructions": [
+      "Add rice, coconut milk, chickpeas, curry powder, and vegetables to the rice cooker.",
+      "Cook until rice is tender.",
+      "Stir and rest for five minutes before serving."
+    ]
+  },
+  {
+    "name": "Toaster Pizza Bagel",
+    "dietary_tags": ["vegetarian", "halal", "nut-free"],
+    "ingredients": ["bagel", "pizza sauce", "mozzarella", "bell pepper", "oregano"],
+    "equipment": ["toaster", "microwave"],
+    "time_minutes": 12,
+    "estimated_cost": 4.75,
+    "instructions": [
+      "Toast the bagel halves lightly.",
+      "Add pizza sauce, mozzarella, bell pepper, and oregano.",
+      "Microwave until the cheese melts."
+    ]
+  },
+  {
+    "name": "Kettle Miso Tofu Soup",
+    "dietary_tags": ["vegan", "vegetarian", "halal", "dairy-free", "high-protein"],
+    "ingredients": ["miso paste", "tofu", "ramen noodles", "spinach", "green onion"],
+    "equipment": ["kettle"],
+    "time_minutes": 10,
+    "estimated_cost": 4.8,
+    "instructions": [
+      "Pour hot kettle water over miso paste and stir.",
+      "Add tofu, noodles, spinach, and green onion.",
+      "Cover until noodles soften."
+    ]
+  },
+  {
+    "name": "Mini Fridge Caprese Snack Plate",
+    "dietary_tags": ["vegetarian", "halal", "gluten-free", "nut-free"],
+    "ingredients": ["mozzarella", "tomato", "basil", "olive oil", "crackers"],
+    "equipment": ["mini fridge"],
+    "time_minutes": 8,
+    "estimated_cost": 6.4,
+    "instructions": [
+      "Slice mozzarella and tomato.",
+      "Arrange with basil and crackers.",
+      "Drizzle olive oil over the plate."
+    ]
+  },
+  {
+    "name": "Blender Mango Lassi Smoothie",
+    "dietary_tags": ["vegetarian", "halal", "gluten-free", "nut-free"],
+    "ingredients": ["mango", "greek yogurt", "milk", "honey", "cardamom"],
+    "equipment": ["blender", "mini fridge"],
+    "time_minutes": 6,
+    "estimated_cost": 5.2,
+    "instructions": [
+      "Add mango, yogurt, milk, honey, and cardamom to the blender.",
+      "Blend until creamy.",
+      "Serve cold."
+    ]
+  },
+  {
+    "name": "Air Fryer Turkey Meatball Bowl",
+    "dietary_tags": ["halal", "high-protein", "nut-free"],
+    "ingredients": ["turkey meatballs", "rice", "broccoli", "marinara", "parmesan"],
+    "equipment": ["air fryer", "microwave"],
+    "time_minutes": 24,
+    "estimated_cost": 10.5,
+    "instructions": [
+      "Air fry turkey meatballs until hot.",
+      "Microwave rice and broccoli.",
+      "Top with marinara and parmesan."
+    ]
+  },
+  {
+    "name": "No-Cook Black Bean Salsa Cups",
+    "dietary_tags": ["vegan", "vegetarian", "halal", "gluten-free", "dairy-free", "nut-free", "low-cost"],
+    "ingredients": ["black beans", "corn", "salsa", "avocado", "tortilla chips"],
+    "equipment": ["none"],
+    "time_minutes": 7,
+    "estimated_cost": 4.25,
+    "instructions": [
+      "Drain black beans and corn.",
+      "Mix with salsa and diced avocado.",
+      "Scoop with tortilla chips."
+    ]
+  },
+  {
+    "name": "Hot Plate Garlic Shrimp Noodles",
+    "dietary_tags": ["halal", "dairy-free", "high-protein", "nut-free"],
+    "ingredients": ["shrimp", "ramen noodles", "garlic", "soy sauce", "frozen vegetables"],
+    "equipment": ["hot plate", "pan"],
+    "time_minutes": 25,
+    "estimated_cost": 11.75,
+    "instructions": [
+      "Cook noodles and set aside.",
+      "Saute shrimp, garlic, and vegetables in a pan.",
+      "Toss with noodles and soy sauce."
+    ]
+  },
+  {
+    "name": "Rice Cooker Breakfast Quinoa",
+    "dietary_tags": ["vegetarian", "gluten-free", "halal", "high-protein"],
+    "ingredients": ["quinoa", "milk", "banana", "cinnamon", "chia seeds"],
+    "equipment": ["rice cooker"],
+    "time_minutes": 35,
+    "estimated_cost": 6.8,
+    "instructions": [
+      "Add quinoa, milk, cinnamon, and chia seeds to the rice cooker.",
+      "Cook until quinoa is tender.",
+      "Top with sliced banana."
+    ]
+  },
+  {
+    "name": "Microwave Loaded Sweet Potato",
+    "dietary_tags": ["vegetarian", "halal", "gluten-free", "nut-free", "high-protein", "low-cost"],
+    "ingredients": ["sweet potato", "black beans", "greek yogurt", "salsa", "green onion"],
+    "equipment": ["microwave"],
+    "time_minutes": 13,
+    "estimated_cost": 4.85,
+    "instructions": [
+      "Pierce the sweet potato and microwave until tender.",
+      "Warm black beans in a small microwave-safe bowl.",
+      "Split the potato and top with beans, greek yogurt, salsa, and green onion."
+    ],
+    "notes": "Uses one bowl and turns pantry beans into a filling meal."
+  },
+  {
+    "name": "No-Cook Mediterranean Snack Board",
+    "dietary_tags": ["vegetarian", "halal", "nut-free", "no restriction"],
+    "ingredients": ["pita", "hummus", "cucumber", "olives", "feta"],
+    "equipment": ["none", "mini fridge"],
+    "time_minutes": 8,
+    "estimated_cost": 7.5,
+    "instructions": [
+      "Slice pita and cucumber.",
+      "Arrange hummus, olives, feta, pita, and cucumber on a plate.",
+      "Eat as a snack board or fold into mini pita pockets."
+    ],
+    "notes": "A dorm-friendly no-cook plate for nights when the dining hall is closed."
+  },
+  {
+    "name": "Kettle Apple Cinnamon Oat Cup",
+    "dietary_tags": ["vegan", "vegetarian", "halal", "dairy-free", "nut-free", "low-cost"],
+    "ingredients": ["instant oats", "apple", "cinnamon", "raisins", "maple syrup"],
+    "equipment": ["kettle"],
+    "time_minutes": 7,
+    "estimated_cost": 2.75,
+    "instructions": [
+      "Add oats, diced apple, cinnamon, and raisins to a heat-safe cup.",
+      "Pour in hot kettle water and cover for five minutes.",
+      "Stir in maple syrup before eating."
+    ],
+    "notes": "Works with shelf-stable breakfast staples and no fridge space."
+  },
+  {
+    "name": "Toaster Turkey Pesto Melt",
+    "dietary_tags": ["halal", "high-protein", "nut-free", "no restriction"],
+    "ingredients": ["bread", "turkey slices", "mozzarella", "pesto", "tomato"],
+    "equipment": ["toaster", "microwave", "mini fridge"],
+    "time_minutes": 11,
+    "estimated_cost": 8.75,
+    "instructions": [
+      "Toast the bread until sturdy.",
+      "Layer turkey, mozzarella, pesto, and tomato.",
+      "Microwave briefly until the cheese softens."
+    ],
+    "notes": "Uses toaster texture plus a short microwave melt instead of an oven."
+  },
+  {
+    "name": "Hot Plate Shakshuka for One",
+    "dietary_tags": ["vegetarian", "halal", "gluten-free", "nut-free", "high-protein"],
+    "ingredients": ["eggs", "tomato sauce", "bell pepper", "onion", "cumin"],
+    "equipment": ["hot plate", "pan"],
+    "time_minutes": 35,
+    "estimated_cost": 7.25,
+    "instructions": [
+      "Cook onion and bell pepper in a pan on the hot plate.",
+      "Add tomato sauce and cumin, then simmer until thick.",
+      "Crack in eggs, cover, and cook until the whites set."
+    ],
+    "notes": "A one-pan hot plate dinner with leftovers for toast or rice."
+  },
+  {
+    "name": "Rice Cooker Chicken Biryani Bowl",
+    "dietary_tags": ["halal", "gluten-free", "dairy-free", "nut-free", "high-protein"],
+    "ingredients": ["rice", "cooked chicken", "frozen peas", "biryani spice", "fried onions"],
+    "equipment": ["rice cooker", "mini fridge"],
+    "time_minutes": 75,
+    "estimated_cost": 15.5,
+    "instructions": [
+      "Rinse rice and add it to the rice cooker with water and biryani spice.",
+      "Stir in cooked chicken and frozen peas.",
+      "Cook until rice is fluffy, then top with fried onions."
+    ],
+    "notes": "Uses pre-cooked chicken so it stays safe and realistic for dorm kitchens."
+  },
+  {
+    "name": "Air Fryer Tofu Nuggets and Fries",
+    "dietary_tags": ["vegan", "vegetarian", "halal", "dairy-free", "nut-free", "high-protein"],
+    "ingredients": ["tofu", "potatoes", "cornstarch", "soy sauce", "ketchup"],
+    "equipment": ["air fryer", "mini fridge"],
+    "time_minutes": 32,
+    "estimated_cost": 9.25,
+    "instructions": [
+      "Press tofu briefly with paper towels and cut into cubes.",
+      "Toss tofu with soy sauce and cornstarch.",
+      "Cut potatoes into wedges and air fry with tofu until crisp.",
+      "Serve with ketchup."
+    ],
+    "notes": "Air fryer crispness without needing a shared kitchen oven."
+  },
+  {
+    "name": "Blender Green Smoothie Bowl",
+    "dietary_tags": ["vegan", "vegetarian", "halal", "gluten-free", "dairy-free"],
+    "ingredients": ["spinach", "banana", "frozen mango", "oat milk", "granola"],
+    "equipment": ["blender", "mini fridge"],
+    "time_minutes": 8,
+    "estimated_cost": 6.5,
+    "instructions": [
+      "Blend spinach, banana, frozen mango, and oat milk until thick.",
+      "Pour into a bowl.",
+      "Top with granola."
+    ],
+    "notes": "A quick produce-heavy meal when a blender is the only appliance."
+  },
+  {
+    "name": "Microwave Mac and Peas",
+    "dietary_tags": ["vegetarian", "halal", "nut-free", "low-cost", "no restriction"],
+    "ingredients": ["macaroni", "cheese sauce", "frozen peas", "milk", "black pepper"],
+    "equipment": ["microwave"],
+    "time_minutes": 9,
+    "estimated_cost": 3.5,
+    "instructions": [
+      "Microwave macaroni with water in a deep bowl until tender.",
+      "Drain carefully, then stir in cheese sauce, milk, and peas.",
+      "Microwave once more and finish with black pepper."
+    ],
+    "notes": "A cheap comfort meal with vegetables added."
+  },
+  {
+    "name": "Pan Turkey Taco Skillet",
+    "dietary_tags": ["halal", "gluten-free", "dairy-free", "nut-free", "high-protein"],
+    "ingredients": ["ground turkey", "black beans", "corn", "taco seasoning", "rice"],
+    "equipment": ["hot plate", "pan"],
+    "time_minutes": 28,
+    "estimated_cost": 11.5,
+    "instructions": [
+      "Brown turkey in a pan on the hot plate.",
+      "Add beans, corn, taco seasoning, and a splash of water.",
+      "Serve over warm rice."
+    ],
+    "notes": "A high-protein skillet that can be portioned into two meals."
+  },
+  {
+    "name": "Rice Cooker Red Beans and Rice",
+    "dietary_tags": ["vegan", "vegetarian", "halal", "gluten-free", "dairy-free", "nut-free"],
+    "ingredients": ["rice", "kidney beans", "celery", "bell pepper", "cajun seasoning"],
+    "equipment": ["rice cooker"],
+    "time_minutes": 120,
+    "estimated_cost": 8.5,
+    "instructions": [
+      "Add rice, beans, celery, bell pepper, seasoning, and water to the rice cooker.",
+      "Cook until the rice is tender and vegetables are soft.",
+      "Let it sit on warm for ten minutes before serving."
+    ],
+    "notes": "A longer hands-off meal for meal prep days."
+  },
+  {
+    "name": "Air Fryer Steak Fajita Bowl",
+    "dietary_tags": ["halal", "gluten-free", "dairy-free", "nut-free", "high-protein", "no restriction"],
+    "ingredients": ["steak strips", "bell pepper", "onion", "rice", "lime"],
+    "equipment": ["air fryer", "microwave", "mini fridge"],
+    "time_minutes": 35,
+    "estimated_cost": 19.5,
+    "instructions": [
+      "Toss steak strips, bell pepper, and onion with seasoning.",
+      "Air fry until steak is cooked through.",
+      "Microwave rice and top with fajita mix and lime."
+    ],
+    "notes": "A higher-budget dorm dinner that still avoids a full kitchen."
+  },
+  {
+    "name": "Big Grocery Trip Sushi Bowl",
+    "dietary_tags": ["halal", "gluten-free", "dairy-free", "nut-free", "high-protein", "no restriction"],
+    "ingredients": ["sushi rice", "salmon", "cucumber", "avocado", "nori", "soy sauce"],
+    "equipment": ["rice cooker", "mini fridge"],
+    "time_minutes": 90,
+    "estimated_cost": 28.0,
+    "instructions": [
+      "Cook sushi rice in the rice cooker and let it cool slightly.",
+      "Slice cucumber, avocado, and cooked or smoked salmon.",
+      "Layer rice, salmon, vegetables, nori, and soy sauce in a bowl."
+    ],
+    "notes": "Best after a grocery run when the dorm fridge is stocked."
+  },
+  {
+    "name": "Dorm Charcuterie Dinner Box",
+    "dietary_tags": ["high-protein", "nut-free", "no restriction"],
+    "ingredients": ["deli turkey", "cheddar", "crackers", "grapes", "pickles"],
+    "equipment": ["none", "mini fridge"],
+    "time_minutes": 10,
+    "estimated_cost": 22.0,
+    "instructions": [
+      "Slice cheddar if needed.",
+      "Arrange turkey, cheddar, crackers, grapes, and pickles in a box or plate.",
+      "Pack extra crackers separately so they stay crisp."
+    ],
+    "notes": "A no-cook higher-budget option for grazing through a study session."
+  },
+  {
+    "name": "Celebration Air Fryer Chicken Plate",
+    "dietary_tags": ["halal", "gluten-free", "dairy-free", "nut-free", "high-protein", "no restriction"],
+    "ingredients": ["chicken thighs", "baby potatoes", "green beans", "olive oil", "lemon", "rice"],
+    "equipment": ["air fryer", "rice cooker", "mini fridge"],
+    "time_minutes": 55,
+    "estimated_cost": 36.5,
+    "instructions": [
+      "Cook rice in the rice cooker.",
+      "Toss chicken thighs, potatoes, and green beans with olive oil and lemon.",
+      "Air fry in batches until chicken is cooked through and potatoes are tender.",
+      "Serve over rice with extra lemon."
+    ],
+    "notes": "A splurge meal for sharing when a student has more groceries and time."
   }
 ]
