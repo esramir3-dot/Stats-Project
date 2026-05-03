@@ -1,88 +1,72 @@
 # DormEats MVP Report
 
-## Executive Summary
+## 1. Executive Summary
 
-DormEats is a full-stack AI-assisted meal planning application designed to help college students make better food decisions under constraints such as limited time, budget, ingredients, and cooking equipment. The system takes user inputs and returns ranked dorm-friendly meal recommendations with instructions, grocery gaps, and fallback restaurant options.
+DormEats is an AI-assisted dorm meal planning web app for college students who have limited time, limited kitchen equipment, limited grocery budgets, and incomplete pantry ingredients. The core goal of the MVP is to help a student quickly answer the question: “What can I realistically make right now with what I have?”
 
-## User & Use Case
+Our Phase 3 MVP turns the earlier Phase 2 prototype into a full-stack web application with a React frontend and an Express backend. A user enters dietary restrictions, pantry ingredients, available equipment, time limit, and budget, and the system returns ranked meal recommendations, missing grocery items, cooking instructions, and restaurant fallback suggestions when pantry options are weak.
 
-The primary user is a college student living in a dorm or small apartment. These users often lack time, money, and resources to cook efficiently. DormEats helps by suggesting realistic meals based on what they already have and what they can access.
+The MVP demonstrates that the idea is technically feasible and useful in a realistic student setting. The current system works as a local demo web app with seeded recipe and ingredient data. It is not yet a production-ready consumer product, but it provides a functional end-to-end proof of concept.
 
-Example use case:
-A student inputs dietary preferences, available ingredients, and time constraints. DormEats recommends meals they can realistically cook, minimizing waste and cost.
+## 2. User and Use Case
 
-## System Design
+### Target User
+The primary user is a college student living in a dorm or apartment with:
+- a small or inconsistent food supply
+- limited cooking tools
+- limited time between classes or work
+- a tight weekly budget
+- dietary restrictions or preferences
 
-The system consists of:
+### Core Problem
+Students often know they need to eat cheaply and quickly, but they do not know what meals fit their current ingredients, dietary needs, equipment, and schedule. Existing recipe sites usually assume a full kitchen and a larger pantry, which makes them less useful in realistic dorm conditions.
 
-* React frontend (user interface)
-* Node.js/Express backend (API)
-* Local JSON data for recipes, ingredients, and restaurants
+### Main Use Case
+A student opens DormEats and enters:
+- dietary preference: vegetarian
+- pantry items: rice, beans, tortilla
+- equipment: microwave
+- time: 10–15 minutes
+- budget: $8
 
-Data flow:
-User input → API request → recommendation logic → ranked results → UI display
+The app returns a ranked set of meal options that match those constraints as closely as possible, shows which items are missing, and gives simple preparation steps. If the pantry options are poor, the app can also suggest fallback restaurant options from local seeded data.
 
-## Data
+## 3. System Design
 
-The MVP uses:
+DormEats is implemented as a full-stack web application.
 
-* A locally expanded dataset of 200+ dorm-friendly recipes
-* Ingredient catalog with autocomplete support
-* Local restaurant fallback dataset
+### Architecture
+- **Frontend:** React-based web interface for user inputs and results display
+- **Backend:** Express API for recommendation logic, recipe lookup, substitution handling, and restaurant fallback
+- **Data Layer:** Local seeded JSON-style data for recipes, ingredients, substitutions, and restaurants
+- **Persistence:** Local browser storage for some user-side state such as pantry or saved preferences
 
-External sources (planned but not fully integrated):
+### High-Level Flow
+1. User enters dietary needs, ingredients, equipment, budget, and time constraints in the frontend.
+2. Frontend sends the request to the backend API.
+3. Backend filters and scores candidate recipes.
+4. Backend returns ranked meal recommendations with:
+   - pantry match strength
+   - missing ingredients
+   - step-by-step instructions
+   - substitution suggestions when available
+   - restaurant fallback options if needed
+5. Frontend renders the results in an accessible web interface.
 
-* USDA FoodData Central (nutrition)
-* Yelp/Google Maps APIs (restaurants)
-
-## Models / Recommendation Logic
-
-The recommendation system is rule-based and uses:
-
-* Dietary filtering
-* Equipment compatibility filtering
-* Ingredient overlap scoring
-* Time constraint scoring
-* Budget constraint scoring
-
-Additional features:
-
-* Grocery gap detection
-* Substitution logic (if implemented)
-* Ingredient normalization and autocomplete
-
-## Evaluation
-
-The system was tested using realistic scenarios:
-
-1. Vegan student during exam week
-2. Halal student with only a microwave
-3. Student with minimal ingredients
-
-Results:
-
-* Recommendations prioritized feasible meals
-* Ingredient overlap improved practicality
-* Grocery gap feature helped reduce unnecessary purchases
-
-## Limitations & Risks
-
-* Uses local datasets rather than real-time APIs
-* Nutrition data is estimated or limited
-* Not fully conversational (form-based UI instead of chat)
-* Substitution logic is rule-based, not learned
-* No persistent database (uses memory/localStorage)
-
-## Next Steps
-
-With more time, we would:
-
-* Integrate USDA nutrition API
-* Add Yelp/Google Maps live restaurant data
-* Implement a chat-style AI interface
-* Improve personalization with user feedback
-* Add full meal planning and calorie tracking
-
-## Conclusion
-
-DormEats successfully demonstrates a working MVP that aligns with the original project vision. It provides a practical and user-focused solution to a common problem faced by college students, while also showcasing meaningful technical implementation of an AI-assisted recommendation system.
+### ASCII Architecture Diagram
+```text
+User
+  |
+  v
+React Frontend
+  |
+  v
+Express API Backend
+  |
+  +--> Recipe dataset
+  +--> Ingredient catalog
+  +--> Substitution data
+  +--> Restaurant fallback data
+  |
+  v
+Ranked response returned to frontend
