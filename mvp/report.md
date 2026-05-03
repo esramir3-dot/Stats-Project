@@ -1,5 +1,5 @@
 # DormEats MVP Report
-MAE 301
+MAE 301  
 DormEats - Group 13  
 Shobhita Tripathi - stripa37@asu.edu  
 Ernesto Ramirez - esramir3@asu.edu  
@@ -20,7 +20,7 @@ In Phase 2, the project demonstrated the recommendation logic through a working 
 
 The main user for DormEats is a college student living in a dorm, apartment, or other limited cooking environment. This user often has a small pantry, only a few pieces of cooking equipment, a low budget, and a limited amount of time between classes, work, or studying.
 
-The core problem is not just “finding recipes.” The real problem is finding meals that are actually realistic given the student’s current situation. A student may only have a microwave, a few ingredients left in their room, and less than fifteen minutes before class. Traditional recipe sites are often not useful in those conditions because they assume more ingredients, more equipment, and more flexibility than the student has.
+The core problem is not just finding recipes. The real problem is finding meals that are actually realistic given the student’s current situation. A student may only have a microwave, a few ingredients left in their room, and less than fifteen minutes before class. Traditional recipe sites are often not useful in those conditions because they assume more ingredients, more equipment, and more flexibility than the student has.
 
 A typical DormEats scenario is a student who enters:
 - a dietary need such as vegetarian, halal, or gluten-free
@@ -125,7 +125,6 @@ These limitations matter because the long-term value of DormEats depends not onl
 ## 8. Next Steps
 
 With additional time, the next development steps would be:
-
 - expand the recipe dataset using larger public sources such as Kaggle or Hugging Face
 - integrate nutrition information from USDA FoodData Central
 - improve the quality of substitution and affordability logic
@@ -141,41 +140,6 @@ These next steps would move DormEats from a strong course MVP toward a more comp
 The full MVP is included in the GitHub repository. The repository contains the frontend, backend, and project documentation.
 
 To run the project locally from the repository root:
-
-```bash
-npm install
-npm run dev
-## 4. Data
-
-DormEats uses local seeded datasets for recipes, ingredients, substitutions, and restaurant fallback suggestions. Each recipe entry includes dietary tags, ingredients, required equipment, estimated cooking time, estimated cost, and preparation steps. We used local structured data for the MVP so the app would be reproducible and easy to test without depending on external APIs.
-
-The main limitation of the current data is size. The datasets are useful for demonstration and realistic dorm-style scenarios, but they are still too small for broader deployment.
-
-## 5. Models and Technical Approach
-
-DormEats uses a lightweight recommendation approach rather than a trained machine learning model. The main technical goal of the project was to generate useful recommendations under realistic dorm constraints, not to build a chatbot or large prediction model.
-
-The backend filters recipes based on dietary restrictions and equipment compatibility, then ranks valid candidates using ingredient overlap, time fit, and budget fit. This improves on a weaker baseline approach that only filtered a small number of constraints and often produced unrealistic recommendations.
-
-## 6. Evaluation
-
-We evaluated the MVP using realistic dorm-life scenarios with different combinations of dietary needs, pantry limitations, equipment restrictions, and budget constraints. The main evaluation question was whether the app could produce meal suggestions that were both valid and realistic for a student to make.
-
-For example, a student with vegetarian preferences, rice, beans, tortillas, microwave access, and a small budget should receive simple meal options that strongly match those inputs rather than generic recipes. In testing, the app successfully returned ranked recommendations, missing grocery items, and fallback suggestions, showing that the full workflow functions end to end.
-
-## 7. Limitations and Risks
-
-Although the MVP works, it still has important limitations. The recipe and restaurant datasets are locally seeded and relatively small. Budget and time estimates are simplified, and the system does not yet use live nutrition or restaurant APIs. The recommendation logic is helpful, but it is still mostly rule-based and does not yet learn from user feedback over time.
-
-These limitations mean the project is best understood as a functional MVP and proof of concept rather than a production-ready consumer app.
-
-## 8. Next Steps
-
-With more time, the next improvements would be expanding the recipe dataset, integrating nutrition information, improving substitution logic, adding stronger personalization, and replacing static restaurant fallback suggestions with live API-based results. A more permanent deployment setup would also make the project easier to share and evaluate.
-
-## 9. Reproducibility and Demo Instructions
-
-The MVP can be run from the repository root with:
 
 ```bash
 npm install
