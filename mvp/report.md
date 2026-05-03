@@ -31,6 +31,8 @@ A typical DormEats scenario is a student who enters:
 
 The system then returns the best meal options available under those constraints. This makes the app practical for real dorm life rather than idealized cooking situations.
 
+One example scenario is a student who enters vegetarian as the dietary preference, rice, beans, and tortillas as current ingredients, microwave as the available equipment, 10 to 15 minutes as the time limit, and $8 as the budget. In that case, the system should prioritize simple, cheap, dorm-friendly meals that use those ingredients heavily and avoid suggesting unrealistic full-kitchen meals.
+
 ## 3. System Design
 
 DormEats is implemented as a full-stack web application. The frontend allows users to enter their preferences and constraints, while the backend processes those inputs and returns ranked recommendations.
@@ -53,94 +55,21 @@ At a high level, the system works as follows:
 
 This design improves on the Phase 2 prototype by turning the recommendation engine into a complete product workflow that can be interacted with directly through a web app.
 
-## 4. Data
+### ASCII Architecture Diagram
 
-The MVP uses small local datasets for recipes, ingredients, substitutions, and restaurant fallback options. These datasets were chosen to keep the system reliable and manageable during development.
-
-The recipe dataset includes structured information such as:
-- dietary tags
-- ingredient lists
-- required equipment
-- estimated cooking time
-- estimated cost
-- step-by-step instructions
-
-The restaurant dataset provides fallback meal options for situations where cooking recommendations are weak or when the user does not have enough ingredients to make a meal.
-
-Local data was used instead of live APIs because it made the MVP easier to test, easier to reproduce, and more stable during development. It also allowed the team to focus on proving that the recommendation logic works before taking on the extra complexity of external integrations.
-
-A major limitation of the current data is that it is still relatively small and hand-built. It works well for demonstration and realistic scenario testing, but it is not yet broad enough to support a large or highly diverse user base.
-
-## 5. Models and Technical Approach
-
-DormEats uses a lightweight AI-assisted recommendation approach rather than a fully trained machine learning model or a chatbot system. This was a deliberate choice. The main technical challenge in this project was not language generation, but making useful recommendations under realistic dorm constraints.
-
-The baseline system was intentionally simple. It only filtered meals by a small number of constraints, such as dietary restrictions and time limit. That baseline often produced weak recommendations because it ignored important factors such as available equipment, ingredient overlap, and affordability.
-
-The improved system added more realistic ranking logic, including:
-- dietary compatibility
-- equipment compatibility
-- ingredient overlap
-- time fit
-- budget fit
-
-This made the recommendations much more useful because the system could now prioritize meals that were not only technically valid, but actually realistic for a student to make.
-
-The final Phase 3 MVP keeps this logic at the core of the system, but places it inside a full-stack application. In that sense, the technical contribution of Phase 3 is both the recommendation logic itself and the delivery of that logic through a web interface and backend API.
-
-## 6. Evaluation
-
-The evaluation of DormEats focuses on whether the system produces useful recommendations in realistic dorm-life situations. Since this MVP is primarily a recommendation workflow rather than a trained predictive model, the most important evaluation criteria are relevance, practicality, and reproducibility.
-
-During testing, the system was run on representative user scenarios, including:
-- an exam-week vegan student
-- a halal student with only a microwave
-- a gluten-free student with very limited ingredients
-
-These cases were useful because they tested different combinations of dietary restrictions, equipment limitations, and pantry shortages. The improved recommendation system performed better than the weak baseline because it accounted for more of the real-world constraints that matter in dorm cooking.
-
-For example, the system was able to recommend:
-- a no-cook hummus wrap for a vegan student
-- a microwave veggie rice bowl for a halal student with microwave-only access
-- a gluten-free tuna potato bowl for a student with very limited groceries
-
-These results show that the system can adapt recommendations based on realistic changes in user context.
-
-Phase 3 also improves evaluation in a practical sense by making the product easier to demonstrate. Instead of relying only on a script, the project can now be tested through a web interface, which makes the user experience and technical functionality easier to evaluate together.
-
-## 7. Limitations and Risks
-
-Although the MVP is functional, several important limitations remain.
-
-First, the recipe and restaurant datasets are still small and hand-built. They are enough for a course MVP, but not enough for broader deployment.
-
-Second, the system does not yet use live nutrition information or live restaurant APIs. This means the healthfulness and freshness of recommendations are limited by the local data currently stored in the project.
-
-Third, the recommendation logic is still largely rule-based. It does not yet learn from user behavior over time, and it does not include deeper personalization beyond the direct constraints entered by the user.
-
-Fourth, the MVP is still a demo-level product rather than a production-ready application. It demonstrates the concept clearly, but additional work would be needed in deployment, reliability, user accounts, and larger-scale data coverage.
-
-These limitations matter because the long-term value of DormEats depends not only on whether the app works, but on whether it can scale to more users, more recipes, and more realistic food situations.
-
-## 8. Next Steps
-
-With additional time, the next development steps would be:
-- expand the recipe dataset using larger public sources such as Kaggle or Hugging Face
-- integrate nutrition information from USDA FoodData Central
-- improve the quality of substitution and affordability logic
-- connect the restaurant fallback system to live APIs such as Yelp or Google Places
-- collect real student feedback and use it to improve recommendation quality
-- add stronger personalization features
-- improve deployment and hosting so the MVP can be shared more reliably
-
-These next steps would move DormEats from a strong course MVP toward a more complete and realistic student product.
-
-## 9. Reproducibility and Demo Instructions
-
-The full MVP is included in the GitHub repository. The repository contains the frontend, backend, and project documentation.
-
-To run the project locally from the repository root:
-
-```bash
-npm install
-npm run dev
+```text
+User
+  |
+  v
+React Frontend
+  |
+  v
+Express API Backend
+  |
+  +--> Recipe dataset
+  +--> Ingredient catalog
+  +--> Substitution data
+  +--> Restaurant fallback data
+  |
+  v
+Ranked response returned to frontend
