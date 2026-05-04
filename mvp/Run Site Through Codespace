@@ -1,0 +1,52 @@
+## How to view the DormEats web app through GitHub Codespaces
+
+1. Open the GitHub repo:
+   `https://github.com/esramir3-dot/Stats-Project`
+
+2. Click **Code**, then click the **Codespaces** tab, then click **Create codespace on main**. GitHub lets you create a codespace directly from a repository in the browser. ([GitHub Docs][1])
+
+3. Wait for the Codespace to fully open.
+
+4. Open the terminal in Codespaces and run:
+
+```bash
+cd /workspaces/Stats-Project
+printf 'VITE_API_URL=/api\n' > frontend/.env.local
+npm install
+npm run dev
+```
+
+5. Leave that terminal running.
+
+6. Open the **PORTS** tab in the bottom panel.
+
+7. Forward port **5173** and port **4000** if they do not already appear. GitHub Codespaces supports forwarding ports from the running app so they can be opened in the browser. ([GitHub Docs][2])
+
+8. Set both ports to **Public**.
+
+9. Click the URL for port **5173**. That is the web app.
+
+10. If the page does not load correctly, refresh once after both ports are public.
+
+## Important notes
+
+* Port **5173** is the frontend web app.
+* Port **4000** is the backend API.
+* The Codespace has to stay running for the app link to work. If the Codespace stops, the running processes stop too. ([GitHub Docs][3])
+* Closing the browser tab does not necessarily stop the Codespace, but inactivity can cause it to stop later. ([GitHub Docs][3])
+* If it stops, just reopen the Codespace and run the same terminal commands again.
+
+## Quick version
+
+```bash
+cd /workspaces/Stats-Project
+printf 'VITE_API_URL=/api\n' > frontend/.env.local
+npm install
+npm run dev
+```
+
+Then open the **5173** public port.
+
+[1]: https://docs.github.com/en/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository "Creating a codespace for a repository - GitHub Docs"
+[2]: https://docs.github.com/en/codespaces/developing-in-a-codespace/forwarding-ports-in-your-codespace "Forwarding ports in your codespace - GitHub Docs"
+[3]: https://docs.github.com/en/codespaces/developing-in-a-codespace/stopping-and-starting-a-codespace "Stopping and starting a codespace - GitHub Docs"
